@@ -5,11 +5,13 @@ body, p, img, h1,h2,h3,h4,h5,h6{
 }
 header{
     background-color: #2D25A0;
+    height: 600px;
 }
 h1{
     color:#fff;
-    font-size: 45px;
-    margin-top: 120px;
+    font-size: 80px;
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 .slider-text{
     display: flex;
@@ -24,7 +26,6 @@ h1{
 a{
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
 }
 
 ul li{
@@ -42,6 +43,7 @@ ul li a{
 ul{
     display: flex;
     justify-content: space-around;
+    padding: 40px 0px;
 }
 .button{
     padding: 7px 10px;
@@ -52,22 +54,19 @@ ul{
     background-color: #fff;
 }
 .blog img{
-    width: 400px;
-    height: 350px;
+    width: 330px;
+    height: 264px;
+    margin: 10px;
 }
-.img img{
-    justify-content: right;
-}
+
 .main-blog{
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-evenly;
     justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
 }
 .blog {
-    width: 300px;
+    width: 350px;
     height: 370px;
     margin: 15px;
     box-shadow: 0px 0px 4px 5px lightgrey;
@@ -79,18 +78,11 @@ ul{
 .blog h2,p{
     margin-left: 20px;
 }
-.blog img {
-    width: 290px;
-    height: 250px;
-    margin: 5px;
-}
 .highlight{
     display: flex;
-    margin-top: 50px;
+    margin-top: 100px;
     justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
+    margin-bottom: 100px;
 }
 .highlight p{
     margin: 12px 0px;
@@ -98,18 +90,13 @@ ul{
 }
 .grid-1 h1{
     color: #000;
+    font-size: 60px;
+
 }
 .grid-1{
-    width: 40%;
-    height: 450px;
+    width: 27%;
 }
-.grid-2{
-    width: 40%;
-}
-.grid-2 img{
-    width: 350px;
-    height: 250px;
-}
+
 .grid-1>button{
     margin: 10px;
 }
