@@ -23,6 +23,11 @@ h1{
 .half-width{
     width: 20%;
 }
+.half-width:hover img{  
+    transform: translate(200px);
+    width: 310px;
+    transition: transform(1s ease-out);
+}
 a{
     text-decoration: none;
     color: #fff;
@@ -106,4 +111,48 @@ ul{
 .footer-img, .social-icon, .copyright {
     text-align: center;
     padding: 8px;
+}
+@media only screen and (max-width: 375px) {
+    h1 {
+        color: #fff;
+        font-size: 39px;
+        margin-top: 31px;
+        margin-bottom: 10px;
+    }
+    ul span {
+        display: none;
+    }
+    .slider-text {
+        display: block;
+    }
+    .half-width1 {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+    .main-blog {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    }
+    .highlight {
+        display: block;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    .grid-1 {
+        width: 360px;
+    }
+    .grid-1 h1 {
+        font-size: 42px;
+    }
+    .highlight p {
+        margin: 20px 0px;
+        font-size: 19px;
+    }
+    .button {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
 }
